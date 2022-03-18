@@ -17,7 +17,6 @@ body{
 
 .black-cover{
     height: 100%;
-    width: 100%;
     background: rgba(0,0,0,20%);
 }
 
@@ -27,10 +26,10 @@ body{
 }
 
 header{
-    /* background: #e579e6; */
     width: 100%;
     min-height: 150px;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+}
 
 h1{
     font-weight: 400;
@@ -47,7 +46,6 @@ img.logo{
     margin-top: auto;
     border-right: 1px solid #8A8A8A;
     padding-right: 20px;
-
 }
 
 nav{
@@ -64,24 +62,16 @@ nav a{
     text-decoration: none;
 }
 
-main{
-    width: 100%;
-    height: auto;
-    
-}
-
 h4,h2{
    color:black; 
 }
 
-.sec-1{
+.hero{
     position: relative;
-    /* background: #e1d67a; */
     background: url("../img/banner.jpg");
     background-position: center center;
     height: 450px;
     margin-bottom: 30px;
-   
 }
 
 .radius-border{
@@ -89,7 +79,7 @@ h4,h2{
 }
 
 
-.banner-text{
+.hero-text{
     padding-right: calc(100% - 880px);
     color:white;
     position: absolute;
@@ -98,40 +88,29 @@ h4,h2{
     transform: translate(-15%,-80%);
 }
 
-.sec-2{
-    margin: auto;
-}
-
-.head-sec-2{
-    min-height: 60px;
-}
-
-
-
 .col{
     min-height: 300px;
     margin: 20px auto 40px auto;
-
 }
 
 .col-left, .col-right{
     float:left;
     width:20%;
 }
-.col-left{
-    margin-right: 10px;
-    
-}
 
+.col-center{
+    float:left;
+    width: calc(60% - 20px);
+    margin-left: 10px; 
+    margin-right:10px;
+}
 
 .img-col-left{
     background: url("../img/img-1.jpg");
-
 }
 
 .img-col-center{
     background: url("../img/banner-2.jpg");
-
 }
 
 .img-col-right{
@@ -143,21 +122,11 @@ h4,h2{
     background-size: cover;
     background-repeat: no-repeat;
     height: 230px;
-
 }
 
 .title-article{
     margin:15px auto;
     font-weight: 400;
-}
-
-.col-center{
-    float:left;
-    width: calc(60% - 20px);
-}
-
-.col-right{
-    margin-left:10px;
 }
 
 footer{
