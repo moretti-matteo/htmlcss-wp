@@ -17,7 +17,7 @@ body{
 
 .black-cover{
     height: 100%;
-    background: rgba(0,0,0,20%);
+    background: rgba(0,0,0,30%);
 }
 
 .container{
@@ -31,12 +31,8 @@ header{
     margin-bottom: 20px;
 }
 
-h1{
+.hero-text h1{
     font-weight: 400;
-}
-
-h2{
-    font-weight: 900;
 }
 
 img.logo{
@@ -57,13 +53,15 @@ nav ul li{
     display: inline;
     margin-right:10px;
 }
+
 nav a{
     color:rgb(168, 168, 168);
     text-decoration: none;
 }
 
-h4,h2{
+.head-sec-2 h2{
    color:black; 
+   font-weight: 900;
 }
 
 .hero{
@@ -127,6 +125,7 @@ h4,h2{
 .title-article{
     margin:15px auto;
     font-weight: 400;
+    color:black;
 }
 
 footer{
